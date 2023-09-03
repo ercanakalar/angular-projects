@@ -1,0 +1,21 @@
+.canvas-container {
+  position: relative;
+  border: 1px solid #9c9898;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.zoomable-div {
+  position: relative;
+  display: flex;
+}
